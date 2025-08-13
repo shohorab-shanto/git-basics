@@ -16,7 +16,7 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Read hello.txt
-        run: echo "This is a test job"
+        run: cat hello.txt
 
   build_job:
     needs: test_job
