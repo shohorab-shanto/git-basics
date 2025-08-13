@@ -13,9 +13,9 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Git Clone
-      - uses: actions/checkout@v2
+        uses: actions/checkout@v2
 
       - name: Read hello.txt
-      - run: cat hello.txt
+        run: cat hello.txt
 
 
